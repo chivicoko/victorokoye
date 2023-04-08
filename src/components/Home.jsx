@@ -43,7 +43,7 @@ const HomePage = () => {
                             I am very passionate about solving real world problems and creating systems that facilitate life experiences.
                         </h4>
                         
-                        <Link to={'/ContactVictorOkoye'} style={{textDecoration: 'none'}}>
+                        <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}>
                             <h3 className='hi'>
                                 <span className='hiText'>Send Me An Email</span>
                             </h3>
@@ -68,7 +68,7 @@ const HomePage = () => {
                         </h4>
                         
                             <h3 className='hi'>
-                        <Link to={'/ContactVictorOkoye'} style={{textDecoration: 'none', textAlign: 'center'}}>
+                        <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', textAlign: 'center'}}>
                                 <span className='hiText'>Send Me An Email</span>
                         </Link>
                             </h3>
