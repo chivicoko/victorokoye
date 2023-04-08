@@ -12,6 +12,9 @@ const Mobile = styled.div`
 
     .hi {
         border: 1px solid white;
+        padding-top: 6px;
+        padding-bottom: 6px;
+
     }
 
     .hiText {
