@@ -49,19 +49,19 @@ const Contact = () => {
                             <div className="input-container">
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>FullName</label> <br />
-                                    <input type="text" name='username' placeholder='eg. Victor Happy' required />
+                                    <input type="text" name='username' placeholder='Victor Happy' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Email Address</label> <br />
-                                    <input type="email" name='email' placeholder='eg. victorhappy@gmail.com' required />
+                                    <input type="email" name='email' placeholder='example@example.com' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Subject</label> <br />
-                                    <input type="text" name='subject' placeholder='eg. Appreciation Mail' required />
+                                    <input type="text" name='subject' placeholder='Heading of your mail' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Message</label> <br />
-                                    <textarea name="message" id="message" cols="30" rows="10" placeholder='write your message here...' required></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
                             <button type="submit">Send</button>
@@ -78,19 +78,19 @@ const Contact = () => {
                             <div className="input-container">
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>FullName</label> <br />
-                                    <input type="text" name='username' placeholder='eg. Victor Happy' required />
+                                    <input type="text" name='username' placeholder='Victor Happy' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Email Address</label> <br />
-                                    <input type="email" name='email' placeholder='eg. victorhappy@gmail.com' required />
+                                    <input type="email" name='email' placeholder='example@example.com' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Subject</label> <br />
-                                    <input type="text" name='subject' placeholder='eg. Appreciation Mail' required />
+                                    <input type="text" name='subject' placeholder='Heading of your mail' required />
                                 </p>
                                 <p className='label-input'>
                                     <label htmlFor="" className='label'>Message</label> <br />
-                                    <textarea name="message" id="message" cols="30" rows="10" placeholder='write your message here...' required></textarea>
+                                    <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
                             <button type="submit">Send</button>
