@@ -5,7 +5,6 @@ import WhatsApp from '../assets/wa2.jpg';
 import LinkedIn from '../assets/in1.png';
 import GitHub from '../assets/github1.png';
 import Twitter from '../assets/twitter2.png';
-// import { GitHub, Twitter, Linkedin } from "react-feather";
 
 
 const Footer = () => {
