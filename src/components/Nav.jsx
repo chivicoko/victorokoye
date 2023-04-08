@@ -31,8 +31,8 @@ const Nav = () => {
           <Mobile>
             <h1>Everyday is for <em>Learning</em> and <em>Practicing</em></h1>
             <div>
-                <Link to={'/'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
-                <Link to={'/ContactVictorOkoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
+                <Link to={'/victorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
+                <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
             </div>
             <hr />
           </Mobile>
@@ -42,8 +42,8 @@ const Nav = () => {
           <Desktop>
             <h1 style={{fontSize: '40px', marginTop: '0'}}>Everyday is for <em>Learning</em> and <em>Practicing</em></h1>
             <div className='links'>
-                <Link to={'/'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
-                <Link to={'/ContactVictorOkoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
+                <Link to={'/victorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
+                <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
             </div>
             <hr />
           </Desktop>

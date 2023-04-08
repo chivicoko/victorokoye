@@ -11,8 +11,8 @@ function App() {
       <div className="App">
         <Nav/>
         <Routes>    
-          <Route exact path='/' element={ <HomePage/>}> {HomePage} </Route>
-          <Route exact path='/ContactVictorOkoye' element={ <Contact/>}> {Contact} </Route>
+          <Route exact path='/victorokoye' element={ <HomePage/>}> {HomePage} </Route>
+          <Route exact path='/contactvictorokoye' element={ <Contact/>}> {Contact} </Route>
         </Routes>
         <Footer/>
       </div>
