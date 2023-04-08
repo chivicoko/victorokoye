@@ -29,14 +29,14 @@ const Mobile = styled.div`
     }
 
     input {
-        margin-left: 65px;
+        margin-left: 60px;
         height: 25px;
         width: 250px;
         text-align: start;
     }
     
     textarea {
-        margin-left: 65px;
+        margin-left: 60px;
         height: 110px;
         text-align: start;
         width: 250px;

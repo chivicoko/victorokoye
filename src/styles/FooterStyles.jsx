@@ -30,7 +30,7 @@ const Mobile = styled.footer`
     }
 
     span {
-        margin: 10px;
+        margin: 10px 5px;
         border-radius: 50%;
         background-color: black;
         padding: 3px;
