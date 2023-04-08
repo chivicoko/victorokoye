@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import VictorImage from '../assets/VictorImage.jpg';
-import Mail from '../assets/mail3.png';
 import { Link } from 'react-router-dom';
 import { Mobile, Desktop } from '../styles/HomeStyles';
 
