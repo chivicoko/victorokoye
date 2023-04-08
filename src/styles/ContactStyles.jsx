@@ -25,11 +25,12 @@ const Mobile = styled.div`
     
     .label {
         color: white;
-        margin-left: 65px;
+        margin-left: 58px;
     }
 
     input {
         margin-left: 58px;
+        padding: 2px 5px;
         height: 25px;
         width: 250px;
         text-align: start;
@@ -37,6 +38,7 @@ const Mobile = styled.div`
     
     textarea {
         margin-left: 58px;
+        padding: 2px 5px;
         height: 110px;
         text-align: start;
         width: 250px;
