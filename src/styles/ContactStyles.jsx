@@ -29,7 +29,7 @@ const Mobile = styled.div`
     }
 
     input {
-        margin-left: 58px;
+        margin-left: 52px;
         padding: 2px 5px;
         height: 25px;
         width: 250px;
@@ -37,7 +37,7 @@ const Mobile = styled.div`
     }
     
     textarea {
-        margin-left: 58px;
+        margin-left: 52px;
         padding: 2px 5px;
         height: 110px;
         text-align: start;
