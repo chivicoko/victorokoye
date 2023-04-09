@@ -65,7 +65,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <Button primary type="submit">Send</Button>
+                            <Button primary type="submit" style={{width: '315px'}}>Send</Button>
                         </form>
                     </div>    
                 </Mobile>
@@ -94,7 +94,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <Button primary type="submit" style={{marginRight: '10px'}}>Send</Button>
+                            <Button primary type="submit" style={{width: '357px', marginRight: '13px'}}>Send</Button>
                         </form>
                     </div>    
                 </Desktop>
