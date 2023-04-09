@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Button from './Button';
 import VictorImage from '../assets/VictorImage.jpg';
 import { Link } from 'react-router-dom';
 import { Mobile, Desktop } from '../styles/HomeStyles';
@@ -43,11 +44,9 @@ const HomePage = () => {
                             I am very passionate about solving real world problems and creating systems that facilitate life experiences.
                         </h4>
                         
-                        <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}>
-                            <h3 className='hi'>
-                                <span className='hiText'>Send Me An Email</span>
-                            </h3>
-                        </Link>
+                        <span className='resume'>
+                            <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}><Button><span>Send Me An Email</span></Button></Link>
+                        </span>
                     </div>
                 </Mobile>
             )
@@ -67,11 +66,9 @@ const HomePage = () => {
                             I am very passionate about solving real world problems and creating systems that facilitate life experiences.
                         </h4>
                         
-                            <h3 className='hi'>
-                        <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', textAlign: 'center'}}>
-                                <span className='hiText'>Send Me An Email</span>
-                        </Link>
-                            </h3>
+                        <span className='resume'>
+                            <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}><Button><span>Send Me An Email</span></Button></Link>
+                        </span>
                     </div>
                 </Desktop>
             )
