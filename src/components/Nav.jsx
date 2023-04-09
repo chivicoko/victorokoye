@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Mobile, Desktop } from '../styles/NavStyles';
 import { Link } from 'react-router-dom';
+import Button from './Button';
 
 const Nav = () => {
   
@@ -30,9 +31,9 @@ const Nav = () => {
         (
           <Mobile>
             <h1>Everyday is for <em>Learning</em> and <em>Practicing</em></h1>
-            <div>
-                <Link to={'/victorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
-                <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
+            <div className='links'>
+              <Link to={'/victorokoye'} style={{textDecoration: 'none'}}><Button>Home</Button></Link>
+              <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}><Button primary>Contact</Button></Link>
             </div>
             <hr />
           </Mobile>
@@ -42,8 +43,8 @@ const Nav = () => {
           <Desktop>
             <h1 style={{fontSize: '40px', marginTop: '0'}}>Everyday is for <em>Learning</em> and <em>Practicing</em></h1>
             <div className='links'>
-                <Link to={'/victorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Home</span></Link>
-                <Link to={'/contactvictorokoye'} style={{textDecoration: 'none', color: 'black'}}><span>Contact</span></Link>
+              <Link to={'/victorokoye'} style={{textDecoration: 'none'}}><Button>Home</Button></Link>
+              <Link to={'/contactvictorokoye'} style={{textDecoration: 'none'}}><Button primary>Contact</Button></Link>
             </div>
             <hr />
           </Desktop>

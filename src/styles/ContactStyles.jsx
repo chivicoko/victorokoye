@@ -25,23 +25,23 @@ const Mobile = styled.div`
     
     .label {
         color: white;
-        margin-left: 58px;
+        margin-left: 32px;
     }
 
     input {
-        margin-left: 52px;
+        margin-left: 32px;
         padding: 2px 5px;
         height: 25px;
-        width: 250px;
+        width: 300px;
         text-align: start;
     }
     
     textarea {
-        margin-left: 52px;
+        margin-left: 32px;
         padding: 2px 5px;
         height: 110px;
         text-align: start;
-        width: 250px;
+        width: 300px;
     }
 
     button {
@@ -49,6 +49,12 @@ const Mobile = styled.div`
         color: black;
         font-size: 20px;
         padding: 5px 15px;
+        width: 310px;
+    }
+
+    button:hover {
+        color: white;
+        background-color: black;
     }
 `;
 
@@ -76,18 +82,15 @@ const Desktop = styled.div`
 
     .label {
         color: white;
-        // margin-left: 65px;
     }
 
     input {
-        // margin-left: 65px;
         height: 25px;
         width: 350px;
         text-align: start;
     }
 
     textarea {
-        // margin-left: 65px;
         height: 150px;
         text-align: start;
         width: 350px;
@@ -98,6 +101,13 @@ const Desktop = styled.div`
         color: black;
         font-size: 20px;
         padding: 5px 15px;
+        width: 355px;
+    }
+
+    button:hover {
+        color: white;
+        background-color: black;
+        border: 1px solid white;
     }
 
 `;

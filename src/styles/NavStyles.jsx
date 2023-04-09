@@ -26,6 +26,10 @@ const Desktop = styled.nav`
         padding: 5px 15px;
         border: 1px solid grey;
     }
+
+    .navSpan:hover {
+        color: white;
+    }
 `;
 
 export { Desktop, Mobile };

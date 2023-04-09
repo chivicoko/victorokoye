@@ -29,19 +29,11 @@ const Mobile = styled.footer`
         border-radius: 50%;
     }
 
-    span {
-        margin: 10px 5px;
+    .span {
+        margin: 5px;
         border-radius: 50%;
         background-color: black;
         padding: 3px;
-    }
-
-    .resume {
-        background-color: white;
-        margin: 15px 15px 25px 15px;
-        border: 1px solid black;
-        border-radius: 0;
-        padding: 5px 10px;
     }
 
 `;
@@ -75,19 +67,11 @@ const Desktop = styled.footer`
         border-radius: 50%;
     }
 
-    span {
+    .span {
         margin: 10px;
         border-radius: 50%;
         background-color: black;
         padding: 3px;
-    }
-
-    .resume {
-        background-color: white;
-        margin: 15px 15px 25px 15px;
-        border: 1px solid black;
-        border-radius: 0;
-        padding: 5px 10px;
     }
 
 `;

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import Button from './Button';
 import emailjs from '@emailjs/browser';
 import { Mobile, Desktop } from '../styles/ContactStyles';
 
@@ -64,7 +65,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <button type="submit">Send</button>
+                            <Button primary type="submit">Send</Button>
                         </form>
                     </div>    
                 </Mobile>
@@ -93,7 +94,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <button type="submit">Send</button>
+                            <Button primary type="submit" style={{marginRight: '10px'}}>Send</Button>
                         </form>
                     </div>    
                 </Desktop>
