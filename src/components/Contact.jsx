@@ -2,6 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import Button from './Button';
 import emailjs from '@emailjs/browser';
 import { Mobile, Desktop } from '../styles/ContactStyles';
+import { toast } from "react-toastify";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'
+
 
 const Contact = () => {
 
@@ -37,6 +41,8 @@ const Contact = () => {
       });
       e.target.reset();
   };
+
+  const sentEmail = () => { toast.success(`🎉 Your message has been sent!`); }
       
   return (
     <section>
@@ -44,6 +50,20 @@ const Contact = () => {
             isMobile ?
             (
                 <Mobile className='container'>
+                    <>
+                        <ToastContainer
+                            theme='dark'
+                            position='top-right'
+                            autoClose={3000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            rtl={false}
+                            draggable={false}
+                            pauseOnHover={false}
+                            pauseOnFocusLoss={false}
+                        />
+                    </>
                     <div className="form-container">
                     <h1>Contact Us</h1>
                         <form ref={formRef} onSubmit={sendEmail}>
@@ -65,7 +85,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <Button primary type="submit" style={{width: '312px',  marginBottom: '50px'}}>Send</Button>
+                            <Button primary type="submit" onClick={sentEmail} style={{width: '312px',  marginBottom: '50px'}}>Send</Button>
                         </form>
                     </div>    
                 </Mobile>
@@ -73,6 +93,20 @@ const Contact = () => {
             :
             (
                 <Desktop className='container'>
+                    <>
+                        <ToastContainer
+                            theme='dark'
+                            position='top-right'
+                            autoClose={3000}
+                            hideProgressBar={false}
+                            newestOnTop={false}
+                            closeOnClick
+                            rtl={false}
+                            draggable={false}
+                            pauseOnHover={false}
+                            pauseOnFocusLoss={false}
+                        />
+                    </>
                     <div className="form-container">
                     <h1>Contact Us</h1>
                         <form ref={formRef} onSubmit={sendEmail}>
@@ -94,7 +128,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <Button primary type="submit" style={{width: '357px', marginRight: '13px', marginBottom: '50px'}}>Send</Button>
+                            <Button primary type="submit" onClick={sentEmail} style={{width: '357px', marginRight: '13px', marginBottom: '50px'}}>Send</Button>
                         </form>
                     </div>    
                 </Desktop>
