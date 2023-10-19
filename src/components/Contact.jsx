@@ -128,7 +128,7 @@ const Contact = () => {
                                     <textarea name="message" id="message" cols="30" rows="10" placeholder='Write your message here...' required></textarea>
                                 </p>
                             </div>
-                            <Button primary type="submit" onClick={sentEmail} style={{width: '357px', marginRight: '23px', marginBottom: '50px'}}>Send</Button>
+                            <Button primary type="submit" onClick={sentEmail} style={{width: '357px', marginRight: '33px', marginBottom: '50px'}}>Send</Button>
                         </form>
                     </div>    
                 </Desktop>
