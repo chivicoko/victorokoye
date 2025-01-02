@@ -11,13 +11,11 @@ interface ThemeTogglerProps {
     return (
       <button 
         onClick={toggleDarkMode} 
-        className={`z-[9999] shadow-xl fixed top-2 right-3 p-1 rounded-full ${darkTheme ? 'bg-neutral-300 text-neutral-800' : 'bg-neutral-800 text-neutral-300'}`}
+        className={`z-[9999] shadow-xl fixed bottom-24 right-3 p-1 rounded-full ${darkTheme ? 'bg-neutral-300 text-neutral-800' : 'bg-neutral-800 text-neutral-300'}`}
       >
-        {/* {darkTheme ? 'LHT' : 'DRK'} */}
-
         <svg id="toggleDarkMode" className="dark-mode-toggle h-[40px] w-[40px]" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" transform="matrix(1, 0, 0, 1, 0, 0)rotate(0)">
           <g id="SVGRepo_bgCarrier" strokeWidth="0">
-            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#45a049" strokeWidth="0"></rect>
+            <rect x="-2.4" y="-2.4" width="28.80" height="28.80" rx="14.4" fill="#0272fb" strokeWidth="0"></rect>
           </g>
           <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
           <g id="SVGRepo_iconCarrier">

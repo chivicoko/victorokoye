@@ -4,8 +4,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id="contactInfo" className='w-full mt-4 py-6 px-12 sm:px-4 flex items-center gap-6 md:gap-16 flex-wrap shadow-sm transition-all duration-300 ease-in-out bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200'>
-        <h2 className='text-2xl'>Victor Okoye C.</h2>
+    <div id="contactInfo" className='w-full mt-4 py-12 px-12 sm:px-4 flex items-center gap-6 md:gap-16 flex-wrap shadow-sm transition-all duration-300 ease-in-out bg-neutral-200 dark:bg-neutral-700 text-neutral-800 dark:text-neutral-200 rounded-t-[4rem]'>
+        <h2 className='text-2xl sm:ml-6 md:ml-16'>Victor Okoye C.</h2>
         <div className="md:w-[65%] flex flex-col md:flex-row items-center justify-between gap-6 flex-wrap">
           <div className="flex items-center gap-4 sm:gap-10 flex-wrap">
             <p className='text-xl underline'>+234 802884 5693</p>

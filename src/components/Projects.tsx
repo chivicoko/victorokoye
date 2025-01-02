@@ -43,7 +43,7 @@ const Projects = () => {
 
     return (
         <div className="w-full flex flex-col items-center justify-center gap-12 py-12 px-4 sm:px-12 my-12 rounded-[4rem] bg-neutral-200 dark:bg-neutral-600">
-            <p className="w-fit text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] px-2 rounded-sm my-2">
+            <p className="w-fit text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm my-2">
                 Projects
             </p>
 
