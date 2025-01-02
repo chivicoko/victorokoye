@@ -1,6 +1,5 @@
 'use client';
 
-import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import useScrollVisibility from "@/hooks/useScrollVisibility";
 import { useRouter } from 'next/navigation';

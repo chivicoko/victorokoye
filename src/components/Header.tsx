@@ -1,8 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
 import useScrollVisibility from '@/hooks/useScrollVisibility'
-import About from './About'
-import Contact from './Contact'
 import { VoiceChat } from '@mui/icons-material'
 
 const Header = () => {

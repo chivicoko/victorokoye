@@ -21,7 +21,7 @@ const CTA = () => {
             <span className='text-7xl leading-2 bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent'>&quot;</span>
         </p>
 
-        <p className='text-2xl'>Don't wait any more.</p>
+        <p className='text-2xl'>Don&apos;t wait any more.</p>
         <button onClick={handleScrollToContact} className='self-center w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-6 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent hover:dark:bg-blue-800 text-white hover:dark:text-white hover:text-blue-700  group font-semibold'>
             <VoiceChat /> Chat me up
         </button>
