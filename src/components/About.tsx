@@ -29,7 +29,7 @@ const About = () => {
             <div className="max-w-96 flex flex-col gap-4">
                 <p className="mb-4 w-fit self-center text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm">A bit about me</p>
                 <h2 className="flex flex-col sm:flex-row gap-2 text-5xl font-bold text-gray-800 dark:text-white">
-                    <span>I&apos;m</span> <span className='bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent'>Victor Okoye</span>
+                    <span>I&apos;m</span> <span className='pb-1 bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent'>Victor Okoye</span>
                 </h2>
                 <p className="text-lg font-medium text-gray-600 dark:text-gray-200">A Software Engineer with over 4 years of experience in web development. I spend most of my time on the UI part of the web to ensure seamless and relaxed experience for all users.</p>
                 

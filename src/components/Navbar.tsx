@@ -10,7 +10,9 @@ const Navbar: React.FC<NavbarProps> = ({ firstDivClasses, secondDivClasses }) =>
   const handleCvToggle = () => setCvOptions((prev) => !prev);
 
   return (
-    <nav className={`z-30 ${firstDivClasses}`}>
+    <nav className={`z-30 relative bg-cover bg-center ${firstDivClasses}`} style={{ backgroundImage: `url('/images/headerBg.jpg')` }}>
+      <div className="bg-neutral-300 dark:bg-neutral-700 absolute inset-0 bg-opacity-80 dark:bg-opacity-80"></div>
+
       <div className={secondDivClasses}>
         <div className="relative flex items-center flex-wrap gap-2">
           
