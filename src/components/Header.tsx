@@ -46,10 +46,10 @@ const Header = () => {
           <div className="bg-neutral-300 dark:bg-neutral-700 absolute inset-0 bg-opacity-80 dark:bg-opacity-80 rounded-b-[4rem]"></div>
 
           {pathName === '/' && 
-            <div className="z-10 flex items-center justify-center flex-col gap-6 md:w-1/2 m-auto text-center py-16">
+            <div className="z-10 flex items-center justify-center flex-col gap-6 lg:w-3/4 xl:w-2/3 m-auto text-center py-16">
               <p className="transform -rotate-[20deg] text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm">👋 Hello,</p>
-              <h1 className="pb-2 text-5xl md:text-8xl font-bold bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent dark:from-[#647af3] dark:via-[#0272fb] dark:to-[#962efd]">
-                Welcome to my digital space.
+              <h1 className="flex flex-col items-center pb-2 text-5xl md:text-8xl font-bold bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent dark:from-[#647af3] dark:via-[#0272fb] dark:to-[#962efd]">
+                <span>Welcome to</span> <span>my digital space.</span>
               </h1>
 
               <div className={`flex w-full md:w-96 items-center justify-center gap-3 m-auto mt-4`}>
@@ -64,9 +64,9 @@ const Header = () => {
           }
 
           {pathName === '/projects' && 
-            <div className="z-10 flex items-center justify-center flex-col gap-6 md:w-1/2 m-auto text-center py-16">
-              <h1 className="pb-2 text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent dark:from-[#647af3] dark:via-[#0272fb] dark:to-[#962efd]">
-                Here are some of the projects I have worked on.
+            <div className="z-10 flex items-center justify-center flex-col gap-6 lg:w-3/4 xl:w-2/3 m-auto text-center py-16">
+              <h1 className="flex flex-col items-center pb-2 text-4xl md:text-6xl font-bold bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent dark:from-[#647af3] dark:via-[#0272fb] dark:to-[#962efd]">
+                <span>Here are </span> <span>some of the projects</span> <span>I have worked on.</span>
               </h1>
 
               <div className={`flex w-full md:w-96 items-center justify-center flex-wrap md:flex-nowrap gap-3 m-auto mt-4`}>

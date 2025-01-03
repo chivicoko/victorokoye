@@ -65,13 +65,13 @@ const Projects = () => {
     }, [initialRangeValue, secondRangeValue]);
 
     return (
-        <div id='projects' className={`${pathName === '/projects' ? "my-20" : 'my-12'} w-full flex flex-col items-center justify-center gap-12 py-12 px-4 sm:px-12 rounded-[4rem] bg-neutral-200 dark:bg-neutral-600`}>
+        <div id='projects' className={`${pathName === '/projects' ? "my-20" : 'my-12'} w-full flex flex-col items-center justify-center gap-12 py-12 px-4 sm:px-12 md:px-6 rounded-[4rem] bg-neutral-200 dark:bg-neutral-600`}>
 
             <p className="w-fit text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm my-2">
                 Projects
             </p>
 
-            <div className="w-full flex flex-col gap-12 lg:px-12 xl:px-40">
+            <div className="w-full flex flex-col gap-12 lg:px-10 xl:px-10 2xl:px-40">
                 {renderedProjects}
             </div>
 

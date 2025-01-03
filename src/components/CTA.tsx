@@ -15,7 +15,7 @@ const CTA = () => {
         <p className="w-fit self-center text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm">
             🎗️ A wise man once said 🎗️
         </p>
-        <p className='text-3xl'>
+        <p className='text-3xl lg:px-32 xl:px-0'>
             <span className='text-5xl sm:text-7xl leading-2 bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent'>&quot;</span>
                 <span className='bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent font-bold text-5xl'>Time</span> is more valuable than <span className='bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent font-bold'>money</span>. You can get more <span className='bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent font-bold'>money</span>, but you cannot get more <span className='bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent font-bold text-5xl'>time</span>
             <span className='text-5xl sm:text-7xl leading-2 bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent'>&quot;</span>
