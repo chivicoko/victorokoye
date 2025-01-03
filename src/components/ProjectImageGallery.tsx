@@ -38,7 +38,7 @@ const ProjectImageGallery: React.FC<Props> = ({ project }) => {
                         <div className="relative w-12 h-12 md:w-16 md:h-16">
                             <Image
                                 src={projectImage.img || '/images/imagePlaceholder.jpeg'}
-                                alt={`${project.name} project preview ${index+1}`}
+                                alt={`${project.name} preview ${index+1}`}
                                 fill
                                 className={`${currentImage === projectImage.img ? 'scale-110' : ''} object-cover rounded-lg hover:scale-105`}
                                 sizes="(max-width: 768px) 100vw, 50vw"

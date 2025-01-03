@@ -153,6 +153,7 @@ export const projects = [
             { id: 1, img: "/images/tSup-chat/tSup-chat-1.png" },
             { id: 2, img: "/images/tSup-chat/tSup-chat-2.png" },
             { id: 3, img: "/images/tSup-chat/tSup-chat-3.png" },
+            { id: 4, img: "/images/imagePlaceholder.jpeg" },
         ]
     },
 ]
