@@ -145,15 +145,14 @@ export const projects = [
         id: 6,
         name: 'tSup-chat',
         description: 'This is a chat application.',
-        img: "/images/tSup-chat/tSup-chat-1.png",
+        img: "/images/tsup-chat/tSup-chat-1.png",
         githubLink: 'https://github.com/chivicoko/tSup-chat',
         liveDemoLink: 'https://tsup-chat.vercel.app/',
         techStack: 'React.js, TailwindCSS, MUI, Firebase, Zustand',
         otherImages: [
-            { id: 1, img: "/images/tSup-chat/tSup-chat-1.png" },
-            { id: 2, img: "/images/tSup-chat/tSup-chat-2.png" },
-            { id: 3, img: "/images/tSup-chat/tSup-chat-3.png" },
-            { id: 4, img: "/images/imagePlaceholder.jpeg" },
+            { id: 1, img: "/images/tsup-chat/tSup-chat-1.png" },
+            { id: 2, img: "/images/tsup-chat/tSup-chat-2.png" },
+            { id: 3, img: "/images/tsup-chat/tSup-chat-3.png" },
         ]
     },
 ]
