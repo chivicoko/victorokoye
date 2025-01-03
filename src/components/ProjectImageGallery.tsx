@@ -19,7 +19,7 @@ const ProjectImageGallery: React.FC<Props> = ({ project }) => {
 
             <div className="relative z-10 w-full h-44 md:h-72">
                 <Image
-                    src={currentImage || project.img}
+                    src={currentImage || project.img || '/images/imagePlaceholder.jpeg'}
                     alt={`${project.name} preview`}
                     fill
                     className="object-contain rounded-lg"
@@ -29,7 +29,7 @@ const ProjectImageGallery: React.FC<Props> = ({ project }) => {
 
             {/* Image Thumbnails */}
             <div className="z-10 w-full flex items-center gap-3 flex-wrap mb-2 mx-1">
-                {project.otherImages.map((projectImage) => (
+                {project.otherImages.map((projectImage, index) => (
                     <div
                         key={projectImage.id}
                         onClick={() => handleImageClick(projectImage.id, projectImage.img)}
@@ -37,8 +37,8 @@ const ProjectImageGallery: React.FC<Props> = ({ project }) => {
                     >
                         <div className="relative w-12 h-12 md:w-16 md:h-16">
                             <Image
-                                src={projectImage.img}
-                                alt="Product extra preview"
+                                src={projectImage.img || '/images/imagePlaceholder.jpeg'}
+                                alt={`${project.name} project preview ${index+1}`}
                                 fill
                                 className={`${currentImage === projectImage.img ? 'scale-110' : ''} object-cover rounded-lg hover:scale-105`}
                                 sizes="(max-width: 768px) 100vw, 50vw"
