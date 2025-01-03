@@ -14,16 +14,16 @@ const Contact = () => {
             <p className='text-lg text-black dark:text-white font-semibold underline'>victor.c.okoye@gmail.com</p>
           </div>
           <div className="flex items-center justify-start w-full md:w-auto gap-2 flex-wrap">
-            <Link href='/https://github.com/chivicoko' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://github.com/chivicoko' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <GitHub />
             </Link>
-            <Link href='/https://www.linkedin.com/in/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://www.linkedin.com/in/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <LinkedIn />
             </Link>
-            <Link href='/https://twitter.com/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://twitter.com/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <Twitter />
             </Link>
-            <Link href='/https://wa.me/+2348028845693' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://wa.me/+2348028845693' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <WhatsApp />
             </Link>
           </div>
