@@ -21,7 +21,7 @@ const Experience = () => {
         </div>
 
         <div className="flex flex-col lg:flex-row items-center justify-center gap-12">
-            <div className="self-center flex items-center justify-center w-full lg:w-1/3 rounded-lg p-1 transition-all duration-300 ease-in-out">
+            <div className="self-center flex items-center justify-center w-full lg:w-2/5 rounded-lg p-1 transition-all duration-300 ease-in-out">
                 <div className="self-center relative size-64 sm:size-96 flex justify-center rounded-lg">
                     <Image
                         src="/images/techBro.jpg"
@@ -33,7 +33,7 @@ const Experience = () => {
                 </div>
             </div>
 
-            <div className="space-y-4 mx-auto w-full lg:w-2/3 mb-2 lg:px-6">
+            <div className="space-y-4 mx-auto w-full lg:w-3/5 mb-2 lg:px-6">
                 {experiences.map((experience, index) => (
                     <div key={index} className="border-b">
                         <button
