@@ -156,3 +156,46 @@ export const projects = [
         ]
     },
 ]
+
+export const experiences = [
+    {
+        id: 1,
+        company: 'Australian Contract',
+        position: 'Full-stack Developer',
+        duration: 'April - July 2024',
+        note: "This is an Australia-based contract in which I did mostly web scraping, managing and updating the company's private web/desktop application which scrapes data from different online platforms and stores them in the company's platform. I worked as a solo developer using Python, PyQT, Pyppeteer, BeautifulSoup, developing and updating the platform as needed.",
+        verifyLink: ""
+    },
+    {
+        id: 2,
+        company: 'Premium ESOWP Limited, Awka, Nigeria',
+        position: 'Full-stack Developer',
+        duration: 'May 2023 - April 2024',
+        note: "Worked as a full-stack developer, mainly on the frontend side. Collaborated with the UI/UX/graphics guys and the backend guys to always satisfy our clients' needs. I and the teams developed websites for different schools and businesses to help automate most of their operations. I worked with HTML, CSS, JavaScript, jQuery, Bootstrap, React.js, PHP and Python as needed, while developing on the job as well.",
+        verifyLink: ""
+    },
+    {
+        id: 3,
+        company: 'Rexit Management',
+        position: 'Solo Full-stack App Development',
+        duration: 'February 2022 - April 2022',
+        note: "Built a finance management application for an individual who was having issues managing his business. He needed assistance with the management of the business, monitoring all the activities that goes on in the business, and investing the income. His business consistently grew by about 5% every month of judicious use of the app. The stack I used is React.js/Node.js/Express.js/Redux/MongoDB .",
+        verifyLink: ""
+    },
+    {
+        id: 4,
+        company: 'Dufuna CC, Ibadan, Nigeria',
+        position: 'Fullstack Web Developer (Intern)',
+        duration: 'July 2022 - January 2023',
+        note: "Received 4 months practical training and mentorship on software development using Javascript, PHP, CSS, HTML, React, Slim, Eloquent. Built a full stack shopping application with CSS, HTML and PHP. Built a fully responsive and functional customer service app using React, HTML, CSS and Bootstrap. Built a fully responsive music app using MERN stack and Rapid API.",
+        verifyLink: "/Dufuna Milestone Certificate.pdf"
+    },
+    {
+        id: 5,
+        company: 'University of Michigan',
+        position: 'Python Developer Trainee (Online Training)',
+        duration: 'April 2020 - October 2020',
+        note: "Received 6 months intensive hands-on training on the Basics and Rudiments of Python programming language, in the Coursera platform. Successfully built a full blog app using Python and Django.",
+        verifyLink: "https://www.coursera.org/account/accomplishments/specialization/LVRJ8P6UMU25"
+    },
+];

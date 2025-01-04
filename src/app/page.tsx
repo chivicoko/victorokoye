@@ -3,6 +3,7 @@
 import About from '@/components/About';
 import CTA from '@/components/CTA';
 import Contact from '@/components/Contact';
+import Experience from '@/components/Experience';
 import Header from '@/components/Header';
 import Projects from '@/components/Projects';
 import Skills from '@/components/Skills';
@@ -19,6 +20,7 @@ const Home = () => {
         <About />
         <Skills />
         <Projects />
+        <Experience />
         <CTA />
         <Contact />
       </main>
