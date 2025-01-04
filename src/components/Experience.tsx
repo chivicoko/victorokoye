@@ -54,18 +54,18 @@ const Experience = () => {
 
                         {activeIndex === index && (
                             <div className="text-gray-600 transition-all duration-300">
-                                <div className="flex items-center justify-between gap-4">
-                                    <div className="flex items-center justify-between gap-4">
-                                        <p className="text-lg font-medium text-neutral-600 dark:text-gray-200 py-2">
+                                <div className="flex items-center justify-between sm:gap-4 flex-wrap pb-2">
+                                    <div className="flex flex-col sm:flex-row items-center justify-between sm:gap-4">
+                                        <p className="self-start text-lg font-medium text-neutral-600 dark:text-gray-200 sm:py-2">
                                             {experience.position}
                                         </p>
-                                        <span className='h-6 w-[2px] bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95]'></span>
-                                        <p className="text-lg font-medium text-neutral-600 dark:text-gray-200 py-2">
+                                        <span className='h-6 w-[2px] hidden sm:block bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95]'></span>
+                                        <p className="self-start text-lg font-medium text-neutral-600 dark:text-gray-200 sm:py-2">
                                             {experience.duration}
                                         </p>
                                     </div>
                                     
-                                    <p className="text-lg font-medium text-neutral-600 dark:text-gray-200 py-2 underline">
+                                    <p className="self-end text-lg font-medium text-neutral-600 dark:text-gray-200 sm:py-2 underline">
                                         {experience.verifyLink && <Link href={experience.verifyLink} target="_blank">Verify</Link>}
                                     </p>
                                 </div>
