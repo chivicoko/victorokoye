@@ -24,6 +24,9 @@ export const skills = [
             { id: 4, name: "ts", img: '/images/skills/tsIcon.png', },
             { id: 5, name: "react.js", img: '/images/skills/reactjsIcon.png', },
             { id: 6, name: "vue.js", img: '/images/skills/vuejsIcon.png', },
+            { id: 7, name: "tailwindcss", img: '/images/skills/tailwindIcon.png', },
+            { id: 8, name: "sass", img: '/images/skills/sassIcon.jpeg', },
+            { id: 9, name: "bootstrap", img: '/images/skills/bootstrapIcon.jpeg', },
         ],
     },
     {
