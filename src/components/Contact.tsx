@@ -17,10 +17,10 @@ const Contact = () => {
             <Link href='https://github.com/chivicoko' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <GitHub />
             </Link>
-            <Link href='https://www.linkedin.com/in/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://www.linkedin.com/in/codesvictor/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <LinkedIn />
             </Link>
-            <Link href='https://twitter.com/chivicoko/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
+            <Link href='https://twitter.com/codes_victor_/' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
                 <Twitter />
             </Link>
             <Link href='https://wa.me/+2348028845693' target='_blank' className='w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap p-2 rounded-full border border-transparent bg-blue-700 text-white group font-semibold transform hover:translate-y-1'>
