@@ -132,7 +132,7 @@ export const projects = [
     { 
         id: 5,
         name: 'E-Learnr',
-        description: 'This is an educational/teaching platform.',
+        description: 'This is an educational/teaching platform for experimental purposes.',
         img: "/images/e-learnr/e-learnr-1.png",
         githubLink: 'https://github.com/chivicoko/e-learnr',
         liveDemoLink: 'javascript:void(0);',
@@ -146,22 +146,8 @@ export const projects = [
     },
     { 
         id: 6,
-        name: 'tSup-chat',
-        description: 'This is a chat application.',
-        img: "/images/tsup-chat/tSup-chat-1.png",
-        githubLink: 'https://github.com/chivicoko/tSup-chat',
-        liveDemoLink: 'https://tsup-chat.vercel.app/',
-        techStack: 'React.js, TailwindCSS, MUI, Firebase, Zustand',
-        otherImages: [
-            { id: 1, img: "/images/tsup-chat/tSup-chat-1.png" },
-            { id: 2, img: "/images/tsup-chat/tSup-chat-2.png" },
-            { id: 3, img: "/images/tsup-chat/tSup-chat-3.png" },
-        ]
-    },
-    { 
-        id: 7,
         name: 'Sweettooth Mini Store',
-        description: 'This is a chat application.',
+        description: 'This is a mini online store for fast food, icecreams, candies, and whatnot. ',
         img: "/images/sweettooth/sweettooth-1.png",
         githubLink: 'https://github.com/chivicoko/sweettooth',
         liveDemoLink: 'https://sweettooth-steel.vercel.app/',
@@ -178,6 +164,20 @@ export const projects = [
             { id: 9, img: "/images/sweettooth/sweettooth-9.png" },
             { id: 10, img: "/images/sweettooth/sweettooth-10.png" },
             { id: 11, img: "/images/sweettooth/sweettooth-11.png" },
+        ]
+    },
+    { 
+        id: 7,
+        name: 'tSup-chat',
+        description: 'This is a minimalist chat application for all users.',
+        img: "/images/tsup-chat/tSup-chat-1.png",
+        githubLink: 'https://github.com/chivicoko/tSup-chat',
+        liveDemoLink: 'https://tsup-chat.vercel.app/',
+        techStack: 'React.js, TailwindCSS, MUI, Firebase, Zustand',
+        otherImages: [
+            { id: 1, img: "/images/tsup-chat/tSup-chat-1.png" },
+            { id: 2, img: "/images/tsup-chat/tSup-chat-2.png" },
+            { id: 3, img: "/images/tsup-chat/tSup-chat-3.png" },
         ]
     },
 ]

@@ -45,7 +45,7 @@ const Projects = () => {
                         <p className='text-3xl bg-gradient-to-r from-[#5870fa] via-[#0272fb] to-[#7f03fb] bg-clip-text text-transparent'>{index+1}</p>
                     </div>
                     <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 dark:text-white text-center">{project.name}</h2>
-                    <p className="text-lg font-medium text-gray-900 dark:text-gray-200 text-center">{project.description}</p>
+                    <p className="text-lg font-medium text-gray-900 dark:text-gray-200 text-justify">{project.description}</p>
                     <p className="p-2 rounded-lg bg-blue-300 text-neutral-950">
                         <span><strong>Stack: </strong></span>
                         {project.techStack}

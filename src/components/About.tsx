@@ -26,12 +26,13 @@ const About = () => {
                     />
                 </div>
             </div>
-            <div className="max-w-96 flex flex-col gap-4">
+            <div className="max-w-3xl flex flex-col justify-center items-center gap-4">
                 <p className="mb-4 w-fit self-center text-xl font-bold text-gray-800 dark:text-gray-100 bg-gradient-to-r from-[#5971fc9c] via-[#60a5facd] to-[#c084fc95] py-1 px-2 rounded-sm">A bit about me</p>
                 <h2 className="flex flex-col sm:flex-row gap-2 text-5xl font-bold text-gray-800 dark:text-white">
                     <span>I&apos;m</span> <span className='pb-1 bg-gradient-to-r from-[#475ac7] via-[#3a71b5] to-[#7848a9] bg-clip-text text-transparent'>Victor Okoye</span>
                 </h2>
-                <p className="text-lg font-medium text-gray-600 dark:text-gray-200">A Software Engineer with over 4 years of experience in web development. I spend most of my time on the UI part of the web to ensure seamless and relaxed experience for all users.</p>
+                <p className="text-justify text-lg font-medium text-gray-600 dark:text-gray-200">I am a <strong>Full-Stack Web Developer</strong> with a strong focus on building modern, scalable web applications using <strong>JavaScript, React.js, and Next.js</strong>. Experienced in developing responsive, user-centered interfaces that prioritize performance and usability. With a passion for continuous learning and staying up-to-date with the latest web development trends, I help businesses create digital solutions that drive engagement and growth. I spend most of my time on the UI part of the web to ensure seamless and relaxed experience for all users.</p>
+                <p className="text-justify text-lg font-medium text-gray-600 dark:text-gray-200"><strong>I am open to collaboration and always eager to contribute to innovative projects.</strong></p>
                 
                 <button onClick={handleScrollToContact} className='self-center w-1/2 flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-3 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent hover:dark:bg-blue-800 text-white hover:dark:text-white hover:text-blue-700  group font-semibold'>
                     <PhoneEnabledOutlined /> Get in touch
