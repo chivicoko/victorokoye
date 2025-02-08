@@ -42,7 +42,7 @@ export const skills = [
     },
     {
         id: 3,
-        name: "Version Control",
+        name: "Others",
         stack: [
             { id: 1, name: "github", img: '/images/skills/githubIcon.jpeg', },
             { id: 1, name: "docker", img: '/images/skills/dockerIcon.png', },
@@ -112,23 +112,23 @@ export const projects = [
     //         { id: 11, img: "/images/ektromart/ektromart-11.png" },
     //     ]
     // },
-    { 
-        id: 4,
-        name: 'Scrutz',
-        description: 'This is a campaign management application.',
-        img: "/images/scrutz/scrutz-1.png",
-        githubLink: 'https://github.com/chivicoko/scrutz',
-        liveDemoLink: 'https://scrutz-swart.vercel.app/',
-        techStack: 'NextJs, Typescript, TailwindCSS, MUI, clerk, MongoDB',
-        otherImages: [
-            { id: 1, img: "/images/scrutz/scrutz-1.png" },
-            { id: 2, img: "/images/scrutz/scrutz-2.png" },
-            { id: 3, img: "/images/scrutz/scrutz-3.png" },
-            { id: 4, img: "/images/scrutz/scrutz-4.png" },
-            { id: 5, img: "/images/scrutz/scrutz-5.png" },
-            { id: 6, img: "/images/scrutz/scrutz-6.png" },
-        ]
-    },
+    // { 
+    //     id: 4,
+    //     name: 'Scrutz',
+    //     description: 'This is a campaign management application.',
+    //     img: "/images/scrutz/scrutz-1.png",
+    //     githubLink: 'https://github.com/chivicoko/scrutz',
+    //     liveDemoLink: 'https://scrutz-swart.vercel.app/',
+    //     techStack: 'NextJs, Typescript, TailwindCSS, MUI, clerk, MongoDB',
+    //     otherImages: [
+    //         { id: 1, img: "/images/scrutz/scrutz-1.png" },
+    //         { id: 2, img: "/images/scrutz/scrutz-2.png" },
+    //         { id: 3, img: "/images/scrutz/scrutz-3.png" },
+    //         { id: 4, img: "/images/scrutz/scrutz-4.png" },
+    //         { id: 5, img: "/images/scrutz/scrutz-5.png" },
+    //         { id: 6, img: "/images/scrutz/scrutz-6.png" },
+    //     ]
+    // },
     { 
         id: 5,
         name: 'E-Learnr',

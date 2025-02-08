@@ -41,7 +41,7 @@ body {
   content: "";
   grid-area: 1/1;
   border-radius: 50%;
-  background: repeating-conic-gradient(#134343 0 60deg, #241c4e 0 120deg); 
+  background: repeating-conic-gradient(#5870fa 0 60deg, #241c4e 0 120deg); 
   /* background: rgb(87, 3, 160); */
   animation: l6 4s linear infinite;
 }
