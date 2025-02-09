@@ -57,7 +57,7 @@ export const projects = [
         description: 'This is a grocery store application that makes life easy for all its users. Fully responsive and interactive.',
         img: "/images/greenbasket/greenbasket-1.png",
         githubLink: 'https://github.com/chivicoko/greenbasket',
-        liveDemoLink: 'javascript:void(0);',
+        liveDemoLink: 'https://greenbasket-cyan.vercel.app/',
         techStack: 'NextJs, Typescript, TailwindCSS, MUI, MongoDB',
         otherImages: [
             { id: 1, img: "/images/greenbasket/greenbasket-1.png" },
@@ -77,7 +77,7 @@ export const projects = [
         description: "This is a project management app that makes life easy for users. It's built using python/django/django rest framework for the backend, and ReactJs/Vite/Tailwindcss for the frontend. Its Kanban drag-and-drop feature, display options, and immediate reactivity for every data makes work very easy and time saving for users. It's very intuitive and seamless to use.",
         img: "/images/maneja/maneja-1.png",
         githubLink: 'https://github.com/chivicoko/maneja',
-        liveDemoLink: 'javascript:void(0);',
+        liveDemoLink: '',
         techStack: 'ReactJs/vite, Typescript, TailwindCSS, MUI / Python, Django, Django Rest Framework',
         otherImages: [
             { id: 1, img: "/images/maneja/maneja-1.png" },
@@ -135,7 +135,7 @@ export const projects = [
         description: 'This is an educational/teaching platform for experimental purposes.',
         img: "/images/e-learnr/e-learnr-1.png",
         githubLink: 'https://github.com/chivicoko/e-learnr',
-        liveDemoLink: 'javascript:void(0);',
+        liveDemoLink: 'https://e-learnr.vercel.app/',
         techStack: 'VueJs, Typescript, Pinia, TailwindCSS, Primeicons',
         otherImages: [
             { id: 1, img: "/images/e-learnr/e-learnr-1.png" },
