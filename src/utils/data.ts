@@ -54,7 +54,7 @@ export const projects = [
     { 
         id: 1,
         name: 'GreenBasket',
-        description: 'This is a grocery store application that makes life easy for all its users. Fully responsive and interactive.',
+        description: 'GreenBasket Stores is an Online store for groceries of all sorts, that is aimed at making buying and selling of groceries of all sorts really easy for everyone. This is a Progressive Web Application (PWA) made so so as to further make usage really easy and hassle free. Fully responsive and interactive.',
         img: "/images/greenbasket/greenbasket-1.png",
         githubLink: 'https://github.com/chivicoko/greenbasket',
         liveDemoLink: 'https://greenbasket-cyan.vercel.app/',
