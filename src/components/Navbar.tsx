@@ -1,5 +1,5 @@
 import { NavbarProps } from "@/utils/types";
-import { KeyboardArrowDown, KeyboardArrowUp } from "@mui/icons-material";
+import { FileDownload, KeyboardArrowDown, KeyboardArrowUp, VisibilityOutlined } from "@mui/icons-material";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -28,12 +28,14 @@ const Navbar: React.FC<NavbarProps> = ({ firstDivClasses, secondDivClasses }) =>
             <span>CV</span>
             {cvOptions ? <KeyboardArrowUp fontSize='small' /> : <KeyboardArrowDown fontSize='small' /> }
           </button>
-          <div className={`${cvOptions ? 'flex' : 'hidden'} w-fit absolute left-6 top-14 items-center gap-3`}>
-            <Link href='/VICTOR_OKOYE.pdf' download="Victor Okoye's Resumé" className='shadow-xl whitespace-nowrap py-2 px-3 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent text-white hover:text-blue-700 dark:hover:text-white dark:hover:border-white group'>
-              Download PDF
+          <div className={`${cvOptions ? 'flex' : 'hidden'} w-fit absolute -right-5 top-14 items-center gap-3 border-b border-dashed border-blue-700 rounded-md shadow-sm pt-1 pb-2`}>
+            <Link href='/VICTOR_OKOYE.pdf' download="Victor Okoye's Resumé" className='space-x-2 shadow-xl whitespace-nowrap py-2 px-3 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent text-white hover:text-blue-700 dark:hover:text-white dark:hover:border-white group'>
+              <FileDownload className="size-5" /> 
+              <span>Download PDF</span>
             </Link>
-            <Link href='/VICTOR_OKOYE.pdf' target="_blank"  className='shadow-xl whitespace-nowrap py-2 px-3 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent text-white hover:text-blue-700 dark:hover:text-white dark:hover:border-white group'>
-              View PDF
+            <Link href='/VICTOR_OKOYE.pdf' target="_blank"  className='space-x-2 shadow-xl whitespace-nowrap py-2 px-3 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent text-white hover:text-blue-700 dark:hover:text-white dark:hover:border-white group'>
+              <VisibilityOutlined className="size-5" /> 
+              <span>View PDF</span>
             </Link>
           </div>
 

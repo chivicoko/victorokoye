@@ -23,7 +23,7 @@ const CTA = () => {
 
         <p className='text-2xl'>Don&apos;t wait any more.</p>
         <button onClick={handleScrollToContact} className='self-center w-fit flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-6 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent hover:dark:bg-blue-800 text-white hover:dark:text-white hover:text-blue-700  group font-semibold'>
-            <VoiceChat /> Chat me up
+          <VoiceChat /> Get in Touch
         </button>
     </div>
   )

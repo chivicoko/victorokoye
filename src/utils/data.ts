@@ -27,27 +27,28 @@ export const skills = [
             { id: 7, name: "tailwindcss", img: '/images/skills/tailwindIcon.png', },
             { id: 8, name: "sass", img: '/images/skills/sassIcon.jpeg', },
             { id: 9, name: "bootstrap", img: '/images/skills/bootstrapIcon.jpeg', },
+            { id: 10, name: "github", img: '/images/skills/githubIcon.jpeg', },
         ],
     },
-    {
-        id: 2,
-        name: "Backend",
-        stack: [
-            { id: 1, name: "js", img: '/images/skills/jsIcon.png', },
-            { id: 2, name: "ts", img: '/images/skills/tsIcon.png', },
-            { id: 3, name: "next.js", img: '/images/skills/nextjsIcon.png', },
-            { id: 4, name: "python", img: '/images/skills/pythonIcon.png', },
-            { id: 5, name: "django", img: '/images/skills/djangoIcon.png', },
-        ],
-    },
-    {
-        id: 3,
-        name: "Others",
-        stack: [
-            { id: 1, name: "github", img: '/images/skills/githubIcon.jpeg', },
-            { id: 1, name: "docker", img: '/images/skills/dockerIcon.png', },
-        ],
-    },
+    // {
+    //     id: 2,
+    //     name: "Backend",
+    //     stack: [
+    //         { id: 1, name: "js", img: '/images/skills/jsIcon.png', },
+    //         { id: 2, name: "ts", img: '/images/skills/tsIcon.png', },
+    //         { id: 3, name: "next.js", img: '/images/skills/nextjsIcon.png', },
+    //         { id: 4, name: "python", img: '/images/skills/pythonIcon.png', },
+    //         { id: 5, name: "django", img: '/images/skills/djangoIcon.png', },
+    //     ],
+    // },
+    // {
+    //     id: 3,
+    //     name: "Others",
+    //     stack: [
+    //         { id: 1, name: "github", img: '/images/skills/githubIcon.jpeg', },
+    //         { id: 1, name: "docker", img: '/images/skills/dockerIcon.png', },
+    //     ],
+    // },
 ]
 
 export const projects = [
@@ -185,42 +186,62 @@ export const projects = [
 export const experiences = [
     {
         id: 1,
-        company: 'Australian Contract',
-        position: 'Full-stack Developer',
-        duration: 'April - July 2024',
-        note: "This is an Australia-based contract in which I did mostly web scraping, managing and updating the company's private web/desktop application which scrapes data from different online platforms and stores them in the company's platform. I worked as a solo developer using Python, PyQT, Pyppeteer, BeautifulSoup, developing and updating the platform as needed.",
+        company: 'Optisource Technology Solutions',
+        position: 'Front-end Engineer',
+        duration: 'April 21, 2025 - Present',
+        points: [
+            "Work as a Front-end Engineer specializing in React.js as the primary technology stack.",
+            "Contribute to the development of scalable B2B technology solutions that help businesses streamline their operations.",
+            "Collaborate with cross-functional teams to build, optimize, and maintain internal company applications that address various business challenges.",
+        ],
         verifyLink: ""
     },
     {
         id: 2,
-        company: 'Premium ESOWP Limited, Awka, Nigeria',
+        company: 'Stealth Company (Contract, Australia)',
         position: 'Full-stack Developer',
-        duration: 'May 2023 - April 2024',
-        note: "Worked as a full-stack developer, mainly on the frontend side. Collaborated with the UI/UX/graphics guys and the backend guys to always satisfy our clients' needs. I and the teams developed websites for different schools and businesses to help automate most of their operations. I worked with HTML, CSS, JavaScript, jQuery, Bootstrap, React.js, PHP and Python as needed, while developing on the job as well.",
+        duration: 'April, 2024 - March, 2025',
+        points: [
+            "Served as a solo full-stack developer responsible for maintaining and upgrading the company’s private web and desktop scraping application.",
+            "Designed and implemented data extraction systems to collect and organize information from multiple online platforms.",
+            "Utilized Python, PyQT, Pyppeteer, and BeautifulSoup to develop and enhance automated scraping features and data workflows.",
+        ],
         verifyLink: ""
     },
     {
         id: 3,
-        company: 'Rexit Management',
-        position: 'Solo Full-stack App Development',
-        duration: 'February 2022 - April 2022',
-        note: "Built a finance management application for an individual who was having issues managing his business. He needed assistance with the management of the business, monitoring all the activities that goes on in the business, and investing the income. His business consistently grew by about 5% every month of judicious use of the app. The stack I used is React.js/Node.js/Express.js/Redux/MongoDB .",
+        company: 'Premium ESOWP Limited',
+        position: 'Front-end Developer',
+        duration: 'May, 2023 - April, 2024',
+        points: [
+            "Worked as a front-end developer, collaborating closely with UI/UX designers and back-end engineers to deliver client solutions.",
+            "Contributed to the development of websites and applications for schools and businesses, automating key aspects of their operations.",
+            "Built responsive, user-friendly interfaces using HTML, CSS, JavaScript, jQuery, Bootstrap, and React.js.",
+        ],
         verifyLink: ""
     },
-    {
-        id: 4,
-        company: 'Dufuna CC, Ibadan, Nigeria',
-        position: 'Fullstack Web Developer (Intern)',
-        duration: 'July 2022 - January 2023',
-        note: "Received 4 months practical training and mentorship on software development using Javascript, PHP, CSS, HTML, React, Slim, Eloquent. Built a full stack shopping application with CSS, HTML and PHP. Built a fully responsive and functional customer service app using React, HTML, CSS and Bootstrap. Built a fully responsive music app using MERN stack and Rapid API.",
-        verifyLink: "/Dufuna Milestone Certificate.pdf"
-    },
-    {
-        id: 5,
-        company: 'University of Michigan',
-        position: 'Python Developer Trainee (Online Training)',
-        duration: 'April 2020 - October 2020',
-        note: "Received 6 months intensive hands-on training on the Basics and Rudiments of Python programming language, in the Coursera platform. Successfully built a full blog app using Python and Django.",
-        verifyLink: "https://www.coursera.org/account/accomplishments/specialization/LVRJ8P6UMU25"
-    },
+    // {
+    //     id: 3,
+    //     company: 'Rexit Management',
+    //     position: 'Solo Full-stack App Development',
+    //     duration: 'February 2022 - April 2022',
+    //     points: "Built a finance management application for an individual who was having issues managing his business. He needed assistance with the management of the business, monitoring all the activities that goes on in the business, and investing the income. His business consistently grew by about 5% every month of judicious use of the app. The stack I used is React.js/Node.js/Express.js/Redux/MongoDB .",
+    //     verifyLink: ""
+    // },
+    // {
+    //     id: 4,
+    //     company: 'Dufuna CC, Ibadan, Nigeria',
+    //     position: 'Fullstack Web Developer (Intern)',
+    //     duration: 'July 2022 - January 2023',
+    //     points: "Received 4 months practical training and mentorship on software development using Javascript, PHP, CSS, HTML, React, Slim, Eloquent. Built a full stack shopping application with CSS, HTML and PHP. Built a fully responsive and functional customer service app using React, HTML, CSS and Bootstrap. Built a fully responsive music app using MERN stack and Rapid API.",
+    //     verifyLink: "/Dufuna Milestone Certificate.pdf"
+    // },
+    // {
+    //     id: 5,
+    //     company: 'University of Michigan',
+    //     position: 'Python Developer Trainee (Online Training)',
+    //     duration: 'April 2020 - October 2020',
+    //     points: "Received 6 months intensive hands-on training on the Basics and Rudiments of Python programming language, in the Coursera platform. Successfully built a full blog app using Python and Django.",
+    //     verifyLink: "https://www.coursera.org/account/accomplishments/specialization/LVRJ8P6UMU25"
+    // },
 ];

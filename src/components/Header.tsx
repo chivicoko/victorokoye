@@ -3,7 +3,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import useScrollVisibility from '@/hooks/useScrollVisibility'
-import { ArrowBack, VoiceChat } from '@mui/icons-material'
+import { KeyboardBackspace, South, VoiceChat } from '@mui/icons-material'
 import { usePathname, useRouter } from 'next/navigation'
 
 const Header = () => {
@@ -69,13 +69,13 @@ const Header = () => {
                 <span>Here are </span> <span>some of the projects</span> <span>I have worked on.</span>
               </h1>
 
-              <div className={`flex w-full md:w-96 items-center justify-center flex-wrap md:flex-nowrap gap-3 m-auto mt-4`}>
+              <div className={`flex w-full md:w-96 items-center justify-center flex-wrap md:flex-nowrap gap-6 m-auto mt-4`}>
                 <button onClick={() => router.back()} className='flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-6 rounded-full bg-blue-700 hover:bg-blue-600 text-white group font-semibold transition-all duration-300 linear group'>
-                  <ArrowBack style={{fontSize: '15px'}} className="transform group-hover:-translate-x-1" />
+                  <KeyboardBackspace className="transform group-hover:-translate-x-1" />
                   Back
                 </button>
-                <button onClick={handleScrollToProjects} className='flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-6 rounded-full border border-blue-700 dark:border-transparent bg-white hover:bg-transparent text-blue-700 group dark:bg-white hover:dark:border-transparent hover:dark:bg-neutral-200 dark:text-blue-700 font-semibold'>
-                  <span>📂</span> Check them out
+                <button onClick={handleScrollToProjects} className='flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 rounded-full border border-blue-700 dark:border-transparent bg-white hover:bg-transparent text-blue-700 group dark:bg-white hover:dark:border-transparent hover:dark:bg-neutral-200 dark:text-blue-700 font-semibold'>
+                  <South className="transform group-hover:translate-y-1" />
                 </button>
                 <button onClick={handleScrollToContact} className='flex items-center justify-center gap-4 shadow-md whitespace-nowrap py-2 px-6 rounded-full border border-transparent hover:border-blue-700 bg-blue-700 hover:bg-transparent hover:dark:bg-blue-600 text-white hover:dark:text-white hover:text-blue-700 group font-semibold'>
                   <VoiceChat /> Let&apos;s chat

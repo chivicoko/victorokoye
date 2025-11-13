@@ -69,7 +69,17 @@ const Experience = () => {
                                         {experience.verifyLink && <Link href={experience.verifyLink} target="_blank">Verify</Link>}
                                     </p>
                                 </div>
-                                <p className="text-start text-lg font-medium text-gray-950 dark:text-gray-200 py-2">{experience.note}</p>
+                                <ul className='list-disc pl-5'>
+                                    {experience.points.map((point, index) => 
+                                        <li 
+                                            key={index}
+                                            className='text-start text-lg font-medium text-gray-950 dark:text-gray-200 py-2'
+                                        >
+                                            {point}
+                                        </li>
+                                    )}
+                                </ul>
+                                {/* <p className="text-start text-lg font-medium text-gray-950 dark:text-gray-200 py-2">{experience.points}</p> */}
                             </div>
                         )}
                     </div>
