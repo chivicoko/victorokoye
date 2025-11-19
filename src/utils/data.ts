@@ -187,7 +187,7 @@ export const experiences = [
     {
         id: 1,
         company: 'Technology for Social Change and Development Initiative (Tech4Dev) — Frontend Developer',
-        position: 'Full-stack Developer',
+        position: 'Frontend Developer',
         duration: 'July, 2025 — Present',
         points: [
             "6-months contract for the development of NAKISE platform a platform/product for organizations that need a big online platform for their contact with the world in terms of running programs that could involve anyone.",
