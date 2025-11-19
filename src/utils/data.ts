@@ -186,9 +186,21 @@ export const projects = [
 export const experiences = [
     {
         id: 1,
+        company: 'Technology for Social Change and Development Initiative (Tech4Dev) — Frontend Developer',
+        position: 'Full-stack Developer',
+        duration: 'July, 2025 — Present',
+        points: [
+            "6-months contract for the development of NAKISE platform a platform/product for organizations that need a big online platform for their contact with the world in terms of running programs that could involve anyone.",
+            "Work as a Frontend Developer specializing in React.js as the primary technology stack.",
+            "Collaborate with cross-functional teams to build and optimize the NAKISE platform.",
+        ],
+        verifyLink: ""
+    },
+    {
+        id: 2,
         company: 'Optisource Technology Solutions',
         position: 'Front-end Engineer',
-        duration: 'April 21, 2025 - Present',
+        duration: 'April, 2023 — June, 2025',
         points: [
             "Work as a Front-end Engineer specializing in React.js as the primary technology stack.",
             "Contribute to the development of scalable B2B technology solutions that help businesses streamline their operations.",
@@ -197,22 +209,10 @@ export const experiences = [
         verifyLink: ""
     },
     {
-        id: 2,
-        company: 'Stealth Company (Contract, Australia)',
-        position: 'Full-stack Developer',
-        duration: 'April, 2024 - March, 2025',
-        points: [
-            "Served as a solo full-stack developer responsible for maintaining and upgrading the company’s private web and desktop scraping application.",
-            "Designed and implemented data extraction systems to collect and organize information from multiple online platforms.",
-            "Utilized Python, PyQT, Pyppeteer, and BeautifulSoup to develop and enhance automated scraping features and data workflows.",
-        ],
-        verifyLink: ""
-    },
-    {
         id: 3,
         company: 'Premium ESOWP Limited',
         position: 'Front-end Developer',
-        duration: 'May, 2023 - April, 2024',
+        duration: 'May, 2023 — April, 2024',
         points: [
             "Worked as a front-end developer, collaborating closely with UI/UX designers and back-end engineers to deliver client solutions.",
             "Contributed to the development of websites and applications for schools and businesses, automating key aspects of their operations.",
@@ -220,6 +220,18 @@ export const experiences = [
         ],
         verifyLink: ""
     },
+    // {
+    //     id: 2,
+    //     company: 'Stealth Company (Contract, Australia)',
+    //     position: 'Full-stack Developer',
+    //     duration: 'April, 2024 - March, 2025',
+    //     points: [
+    //         "Served as a solo full-stack developer responsible for maintaining and upgrading the company’s private web and desktop scraping application.",
+    //         "Designed and implemented data extraction systems to collect and organize information from multiple online platforms.",
+    //         "Utilized Python, PyQT, Pyppeteer, and BeautifulSoup to develop and enhance automated scraping features and data workflows.",
+    //     ],
+    //     verifyLink: ""
+    // },
     // {
     //     id: 3,
     //     company: 'Rexit Management',
