@@ -184,27 +184,40 @@ export const projects = [
 ]
 
 export const experiences = [
+    // {
+    //     id: 1,
+    //     company: 'Technology for Social Change and Development Initiative (Tech4Dev) — Frontend Developer',
+    //     position: 'Frontend Developer',
+    //     duration: 'July, 2025 — Present',
+    //     points: [
+    //         "6-months contract for the development of NAKISE platform a platform/product for organizations that need a big online platform for their contact with the world in terms of running programs that could involve anyone.",
+    //         "Work as a Frontend Developer specializing in React.js as the primary technology stack.",
+    //         "Collaborate with cross-functional teams to build and optimize the NAKISE platform.",
+    //     ],
+    //     verifyLink: ""
+    // },
     {
         id: 1,
-        company: 'Technology for Social Change and Development Initiative (Tech4Dev) — Frontend Developer',
-        position: 'Frontend Developer',
-        duration: 'July, 2025 — Present',
+        company: 'Optisource Technology Solutions',
+        position: 'Front-end Engineer',
+        duration: 'April, 2025 — Present',
+        // duration: 'April, 2023 — June, 2025',
         points: [
-            "6-months contract for the development of NAKISE platform a platform/product for organizations that need a big online platform for their contact with the world in terms of running programs that could involve anyone.",
-            "Work as a Frontend Developer specializing in React.js as the primary technology stack.",
-            "Collaborate with cross-functional teams to build and optimize the NAKISE platform.",
+            "Work as a Front-end Engineer specializing in React.js as the primary technology stack.",
+            "Contribute to the development of scalable B2B technology solutions that help businesses streamline their operations.",
+            "Collaborate with cross-functional teams to build, optimize, and maintain internal company applications that address various business challenges.",
         ],
         verifyLink: ""
     },
     {
         id: 2,
-        company: 'Optisource Technology Solutions',
-        position: 'Front-end Engineer',
-        duration: 'April, 2023 — June, 2025',
+        company: 'Stealth Company (Contract, Australia)',
+        position: 'Full-stack Developer',
+        duration: 'May, 2024 - February, 2025 (10-month contract)',
         points: [
-            "Work as a Front-end Engineer specializing in React.js as the primary technology stack.",
-            "Contribute to the development of scalable B2B technology solutions that help businesses streamline their operations.",
-            "Collaborate with cross-functional teams to build, optimize, and maintain internal company applications that address various business challenges.",
+            "Served as a solo full-stack developer responsible for maintaining and upgrading the company’s private web and desktop scraping application.",
+            "Designed and implemented data extraction systems to collect and organize information from multiple online platforms.",
+            "Utilized Python, PyQT, Pyppeteer, and BeautifulSoup to develop and enhance automated scraping features and data workflows.",
         ],
         verifyLink: ""
     },
@@ -220,18 +233,6 @@ export const experiences = [
         ],
         verifyLink: ""
     },
-    // {
-    //     id: 2,
-    //     company: 'Stealth Company (Contract, Australia)',
-    //     position: 'Full-stack Developer',
-    //     duration: 'April, 2024 - March, 2025',
-    //     points: [
-    //         "Served as a solo full-stack developer responsible for maintaining and upgrading the company’s private web and desktop scraping application.",
-    //         "Designed and implemented data extraction systems to collect and organize information from multiple online platforms.",
-    //         "Utilized Python, PyQT, Pyppeteer, and BeautifulSoup to develop and enhance automated scraping features and data workflows.",
-    //     ],
-    //     verifyLink: ""
-    // },
     // {
     //     id: 3,
     //     company: 'Rexit Management',
