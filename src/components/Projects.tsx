@@ -55,9 +55,11 @@ const Projects = () => {
                         <Link href={project.githubLink} target='_blank' className="self-center whitespace-nowrap flex items-center justify-center gap-4 shadow-md py-2 px-4 rounded-full border border-transparent hover:border-blue-700 dark:hover:border-white bg-blue-700 hover:bg-transparent text-white hover:text-blue-800 dark:hover:text-white group font-semibold">
                             <GitHub /> Codebase (GitHub)
                         </Link>
+                        {project.name !== "tSup-chat" &&
                         <Link href={project.liveDemoLink} target='_blank' className="self-center whitespace-nowrap flex items-center justify-center gap-4 shadow-md py-2 px-4 rounded-full border border-transparent hover:border-blue-700 dark:hover:border-white bg-blue-700 hover:bg-transparent text-white hover:text-blue-800 dark:hover:text-white group font-semibold">
                             <VisibilityOutlined style={{ width: '17px', height: '17px' }} /> Live Demo
                         </Link>
+                        }
                     </div>
                 </div>
             </div>
