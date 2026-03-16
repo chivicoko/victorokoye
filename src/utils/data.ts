@@ -54,11 +54,13 @@ export const skills = [
 export const projects = [
     { 
         id: 1,
-        name: 'GreenBasket',
-        description: 'GreenBasket Stores is an Online store for groceries of all sorts, that is aimed at making buying and selling of groceries of all sorts really easy for everyone. This is a Progressive Web Application (PWA) made so so as to further make usage really easy and hassle free. Fully responsive and interactive.',
+        name: 'TheGreenBasket',
+        description: 'TheGreenBasket Stores is an Online store for groceries of all sorts, that is aimed at making buying and selling of groceries of all sorts really easy for everyone. This is a Progressive Web Application (PWA) made so so as to further make usage really easy and hassle free. Fully responsive and interactive.',
         img: "/images/greenbasket/greenbasket-1.png",
-        githubLink: 'https://github.com/chivicoko/greenbasket',
-        liveDemoLink: 'https://greenbasket-cyan.vercel.app/',
+        githubLink: 'https://github.com/chivicoko/thegreenbasket',
+        liveDemoLink: 'https://thegreenbasket.vercel.app/',
+        // githubLink: 'https://github.com/chivicoko/greenbasket',
+        // liveDemoLink: 'https://greenbasket-cyan.vercel.app/',
         techStack: 'NextJs, Typescript, TailwindCSS, MUI, MongoDB',
         otherImages: [
             { id: 1, img: "/images/greenbasket/greenbasket-1.png" },
