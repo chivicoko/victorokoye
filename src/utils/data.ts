@@ -61,7 +61,7 @@ export const projects = [
         liveDemoLink: 'https://thegreenbasket.vercel.app/',
         // githubLink: 'https://github.com/chivicoko/greenbasket',
         // liveDemoLink: 'https://greenbasket-cyan.vercel.app/',
-        techStack: 'NextJs, Typescript, TailwindCSS, MUI, MongoDB',
+        techStack: 'NextJs, Typescript, TailwindCSS',
         otherImages: [
             { id: 1, img: "/images/greenbasket/greenbasket-1.png" },
             { id: 2, img: "/images/greenbasket/greenbasket-2.png" },
